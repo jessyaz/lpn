@@ -1,3 +1,7 @@
+funtion Test({ test }) {
+  return sasa;
+}
+
 function MyButton() {
   return (
     <button>I'm a button</button>
@@ -12,6 +16,7 @@ export default function App() {
   return (
 	<Greeting name="world" />
 	<MyButton />
+	<Test test="1"/>
 	);
 }
 
