@@ -18,6 +18,7 @@ export default function App() {
       <Greeting name="world" />
       <MyButton />
       <Test test="1"/>
+	bababababa
     </>
   );
 }
