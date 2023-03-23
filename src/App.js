@@ -1,3 +1,4 @@
+import React from "react";
 funtion Test({ test }) {
   return <div>sasa</div>;
 }
