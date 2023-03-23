@@ -1,5 +1,5 @@
 funtion Test({ test }) {
-  return sasa;
+  return <div>sasa</div>;
 }
 
 function MyButton() {
@@ -14,11 +14,11 @@ function Greeting({ name }) {
 
 export default function App() {
   return (
-	<>
-	<Greeting name="world" />
-	<MyButton />
-	<Test test="1"/>
-	</>
-	);
+    <>
+      <Greeting name="world" />
+      <MyButton />
+      <Test test="1"/>
+    </>
+  );
 }
 
