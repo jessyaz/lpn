@@ -14,9 +14,11 @@ function Greeting({ name }) {
 
 export default function App() {
   return (
+	<>
 	<Greeting name="world" />
 	<MyButton />
 	<Test test="1"/>
+	</>
 	);
 }
 
