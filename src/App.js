@@ -1,12 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-	<div style="color:red;">
-		<h6>Guillaume == pute</h6>
-	</div>
-  );
+function Greeting({ name }) {
+  return <h1>Hello, {name}</h1>;
 }
 
-export default App;
+export default function App() {
+  return <Greeting name="world" />
+}
+
