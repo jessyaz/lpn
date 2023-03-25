@@ -1,0 +1,16 @@
+.nb-pos {
+	display: flex;
+	flex-direction: row;
+
+}
+.nb-pos > .nb-item {
+  flex: auto;
+  width: 5rem;
+}
+
+html {
+	
+	background-color:black;
+	height: 500px;
+	width: 500px;
+}

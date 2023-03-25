@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style type="text/css">
+
+@font-face {
+    font-family: "My Custom Font";
+    src: url('./src/st.ttf') format("truetype");
+}
+* { 
+    font-family: "My Custom Font", Verdana, Tahoma;
+}
+
+	.nb-pos {
+		display: flex;
+		flex-direction: row;
+		
+	}
+	.nb-item {
+
+  		width:auto;
+	}
+	.nb-right {
+		margin-left:auto;
+	}
+
+	.nb-right > a {
+
+		margin-left: 1.25rem;
+	}
+	.nb-right a:hover {
+		border-bottom:1.5px solid white;
+	}
+
+	.nb-right a:active {
+  		color:#ACD94F;
+	}
+
+	.panier {
+		flex:auto;
+  		width:auto;
+		background-image: url('./Iconly/Light/Buy.png');
+
+	}
+
+</style>
+
+
+<container class="container">
+
+  <div style="background-color: #253F05; font-color:" class="h-20 text-white">
+	<div class="nb-pos p-7 ml-5 text-xl">
+		<div>
+			<p class="font-bold nb-item">Le petit nuage</p>
+		</div>
+		<div>
+			<p class="pl-6 nb-item">Le CBD francais et bio !</p>
+		</div>
+		<div class="nb-right pr-6">
+			<a href="">Fleurs de CBD</a>
+			<a href="">Résine de CBD</a>
+			<a href="">CBD limentaire</a>
+			<a href="">Accessoires</a>
+			<a href="">Blog</a>
+			<a href="">Mon compte</a>
+			<a href="" class="pr-2 panier"></a>
+		</div>
+	</div>
+  </div>
+
+  <div style="background-color: #ACD94F; color: #253E05;" class="h-11 p-2 flex flex-col text-center">
+  	Livraison & retours gratuits · Service client par chat 7j/7
+  </div>
+</html>

@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style type="text/css">
+
+	@font-face {
+    	font-family: "St";
+    	src: url('./src/st.ttf') format("truetype");
+	}
+	* { 
+    	font-family: "St", Verdana, Tahoma;
+    	margin: 0;
+	}
+	body {
+		background-color: #EAF4F5;
+	}
+
+	.product {
+		height: 586px;
+		width: 313px;
+	}
+	.img {
+		background-color: white;
+		width:313px;
+		height: 406px;
+	}
+	.content{
+		padding-top:25px;
+	}
+	.content>.title {
+		font-size:26px;
+		color: #252E11;
+		line-height: 35px;
+	}
+	.rating {
+		display: flex;
+		padding-top:15px;
+	}
+
+	.rating div {
+		width:18px;
+		height: 17px;
+		background-position: center;
+		background-size: cover;
+	}
+
+	.rating > .filled {
+		background-image: url('./src/filled_star.png');
+		background-repeat: no-repeat;
+		margin-left:5px;
+		
+	}
+	.rating > .empty {
+		background-image: url('./src/empty_star.png');
+		background-repeat: no-repeat;
+		margin-left:5px;
+	}
+	.note {
+		margin-left:5px;
+		margin-top:auto;
+		margin-bottom:auto;
+		color : #74776E;
+
+		font-style: normal;
+		font-size: 10px;
+	}
+	.price {
+		padding-top:16px;
+	}
+	.price span {
+		color: #A6D93C;
+	}
+
+
+</style>
+
+<body class="">
+
+	<div class="product">
+
+			<div class="img border-2 rounded" style="background-image: url('./src/product_list/amnesia.png'); background-size: contain;">&nbsp;</div>
+			<div class="content">
+				<div class="title">Amnesia 12.8% - Fleur de CBD Greenhouse</div>
+				<div class="rating"><div class="filled"></div><div class="filled"></div><div class="empty"></div><div class="empty"></div><div class="empty"></div><span class="note">(28 avis)</span></div>
+				<div class="price">à partir de <span>4.20€</span></div>
+			</div>
+	</div>
+
+
+</body>
+
+</html>
